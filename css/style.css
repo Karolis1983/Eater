@@ -1,7 +1,19 @@
-.flex {
+.image-Container {
+  position: relative;
+}
+.flex-hero {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.Nuorodos a {
+  color: aliceblue;
+  font-size: 20px;
+  margin: 10px;
 }
 
 .Pavad {
@@ -9,6 +21,70 @@
 }
 
 .Pavad h1 {
-  font-size: 80px;
+  font-size: 100px;
   color: rgb(168, 151, 50);
+  margin-bottom: 20px;
 }
+
+.Pavad h3 {
+  font-size: 25px;
+  color: rgb(161, 159, 151);
+}
+.foto {
+  width: 100%;
+}
+.section-meniu {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.section-meniu .inner-container {
+  display: flex;
+  justify-content: space-between;
+}
+.section-meniu .single-meniu {
+  width: 320px;
+  /* padarem lad vietos butu is apacios ir virsaus */
+  margin-top: 60px;
+  margin-bottom: 20px;
+  cursor: default;
+  /* uzlenkem kampus ir sumazinompav */
+  border-radius: 8px;
+  overflow: hidden;
+  /* padarem seseliu */
+  box-shadow: 0px 4px 12px 0px rgba(186, 186, 186, 0);
+  border: 1px solid rgb(70, 0, 0, 0.1);
+}
+.section-meniu .single-meniu:hover {
+  box-shadow: 0px 4px 12px 0px rgba(186, 186, 186, 1);
+  transform: scale(1.04);
+  transition: all 0.4s ease-in-out;
+}
+/* parasom koks bus textas */
+.section-meniu .single-meniu h3 {
+  text-align: center;
+  font-weight: 300;
+  color: green;
+}
+.section-meniu li {
+  padding: 4px;
+  margin-left: 10px;
+  font-weight: 300;
+  color: rgb(130, 0, 0);
+}
+/* uzdejompo paveiksiuka pries zodi */
+.section-meniu li::before {
+  content: "🍲";
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.section-meniu li:hover {
+  text-decoration: underline;
+}
+
+/* img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+} */
