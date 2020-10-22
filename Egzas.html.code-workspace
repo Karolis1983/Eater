@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "..\\web pamoka3"
+	},
+	{
+		"path": "..\\web pamoka1"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "EATERS.LT"
+  }
+}
